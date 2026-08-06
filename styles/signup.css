@@ -1,0 +1,174 @@
+body{
+  display: flex;
+  margin: 0px;
+}
+
+.signup-background{
+  height: 977px;
+}
+
+.signup-background-image{
+  width: 100%;
+  height: 100%;
+}
+
+.right-section{
+  padding-top: 70px;
+  padding-left: 180px;
+}
+
+.right-section-header{
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 24px;
+  color: rgba(35, 22, 12, 1);
+}
+
+.right-section-subheader{
+  font-family: Poppins, Arial;
+  margin-top: 60px;
+  width: 445px;
+}
+
+.subheader-1{
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 41.6px;
+  color: rgba(35, 22, 12, 1);
+}
+
+.subheader-2{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25.6px;
+  color: rgba(78, 69, 63, 1);
+}
+
+.right-section-details{
+  margin-top: 20px;
+}
+
+.box-header{
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  color: rgba(78, 69, 63, 1);
+}
+
+.fullname-input-box,
+.email-input-box,
+.password-input-box,
+.confirm-password-input-box{
+  width: 480px;
+  height: 63px;
+  border-radius: 8px;
+  padding-left: 48px;
+  background-color: rgba(237, 231, 228, 1);
+  border: none;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  background-image: url(/images/icons/fullname-icon.png);
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position: bottom 15px left 18px;
+}
+
+.email-input-box{
+  background-image: url(/images/icons/email-signup-icon.png);
+  background-position: bottom 25px left 18px;
+}
+
+.password-section{
+  display: flex;
+  align-items: center;
+}
+
+.password-input-box{
+  width: 209px;
+  background-image: url(/images/icons/password-icon.png);
+  margin-right: 12px;
+  background-position: bottom 20px left 18px;
+}
+
+.confirm-password-input-box{
+  width: 209px;
+  background-image: url(/images/icons/confirm-password-icon.png);
+  background-position: bottom 18px left 18px;
+}
+
+.terms-section{
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  color: rgba(78, 69, 63, 1);
+  margin-top: 12px;
+}
+
+.terms-span{
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.7px;
+}
+
+.checkbox-box{
+  height: 20px;
+  width: 20px;
+  border-color: rgba(210, 196, 188, 1);
+  border-width: 1px;
+  border-style: solid;
+}
+
+.signup-button{
+  width: 530px;
+  height: 46px;
+  border-radius: 8px;
+  padding-bottom: 3px;
+  margin-top: 20px;
+  background-color: rgba(35, 22, 12, 1);
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  color: white;
+  border: none;
+}
+
+.login-text{
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  margin-top: 80px;
+  margin-left: 140px;
+}
+
+.login{
+  font-weight: 700;
+}
+
+.horizontal-line{
+  border: 1px solid rgba(35, 22, 12, 1);
+  margin-top: 105px;
+}
+
+.other-links{
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  color: rgba(105, 93, 65, 1);
+  display: flex;
+  margin-left: 72px;
+  margin-top: 10px;
+}
+
+.space-other-links{
+  margin-right: 25px;
+}
