@@ -1,0 +1,121 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 125, 204);
+  font-size: 65.65%;
+}
+
+body.correct {
+  background-color: rgb(102, 187, 106);
+}
+
+body.wrong {
+  background-color: rgb(230, 57, 70);
+}
+
+.container {
+  width: 1000px;
+  height: 650px;
+  max-width: 80%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 1.5rem;
+  margin-top: 2.4rem;
+  border-color: rgb(255, 185, 0);
+  border-width: 1rem;
+  border-style: solid;
+  font-family: "Schoolbell", Arial;
+  font-size: 4rem;
+  color: rgb(0, 125, 204);
+}
+
+.landing-image{
+  margin-left: 11rem;
+  border-radius: 0.5rem;
+}
+
+.friends-logo{
+  width: 20rem;
+  margin-left: 18rem;
+  margin-top: 1rem;
+}
+
+.question-text{
+  font-family: "DynaPuff", Arial;
+  font-size: 3rem;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 1rem;
+  margin: 4rem 0;
+}
+
+.btn {
+  height: 3rem;
+  border: none;
+  background-color: rgb(255, 154, 0);
+  border-radius: 10rem;
+  padding: 10rem, 4rem;
+  color: white;
+  outline: none;
+  transition: background-color 0.5;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: rgb(102, 187, 106);
+}
+
+.btn.correct {
+  background-color: rgb(102, 187, 106);
+}
+
+.btn.wrong {
+ background-color: rgb(230, 57, 70);
+}
+
+.start-btn, .next-btn {
+  height: 3.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1rem 4rem;
+  background-color: rgb(0, 125, 204);
+}
+
+.start-btn:hover, .next-btn:hover{
+  background-color: rgb(0, 125, 204);
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.the-end{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.hide {
+  display: none;
+}
+
+.smooth{
+  transition: all 0.5s ease-in-out;
+}
+
+.span-text{
+  margin-left: 7rem;
+  margin-bottom: 4rem;
+}
